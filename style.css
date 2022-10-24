@@ -331,6 +331,12 @@ video {
   padding: 10px;
 }
 
+.work-item {
+
+  margin:10px;
+}
+
+
 #bio {
   background-color: #000000;
   margin: 0 0 0 0;

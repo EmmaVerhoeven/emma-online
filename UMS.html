@@ -21,11 +21,116 @@
         h1 {
             font-family: Arial;
             color: white;
-            font-size: 2em;
+            font-size: 20px;
             font-weight: normal;
-            font-style: italic;
             text-align: center;
             margin-bottom: 5%;
+        }
+
+        .area {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 5;
+
+        }
+
+        #prestatiedruk {
+            position: absolute;
+            left: 15%;
+            top: 45%;
+        }
+
+
+        #geluk {
+            position: absolute;
+            left: 70%;
+            top: 10%;
+        }
+
+        #depressie {
+            position: absolute;
+            left: 8%;
+            top: 87%;
+        }
+
+        #lifestyle {
+            position: absolute;
+            left: 80%;
+            top: 90%;
+        }
+
+        #trauma {
+            position: absolute;
+            left: 5%;
+            top: 18%;
+        }
+
+
+        #verdriet {
+            position: absolute;
+            left: 45%;
+            top: 3%;
+        }
+
+        #woede {
+            position: absolute;
+            left: 60%;
+            top: 7%;
+        }
+
+        #angst {
+            position: absolute;
+            left: 83%;
+            top: 19%;
+        }
+
+        #sexualiteit {
+            position: absolute;
+            left: 11%;
+            top: 68%;
+        }
+
+        #rust {
+            position: absolute;
+            left: 80%;
+            top: 90%;
+        }
+
+        #zelfvertrouwen {
+            position: absolute;
+            left: 45%;
+            top: 72%;
+        }
+
+        #fomo1 {
+            position: absolute;
+            left: 58%;
+            top: 83%;
+        }
+
+        #gender {
+            position: absolute;
+            left: 58%;
+            top: 83%;
+        }
+
+
+        #klimaatcrisis {
+            position: absolute;
+            left: 58%;
+            top: 83%;
+        }
+
+        #wooncrisis {
+            position: absolute;
+            left: 58%;
+            top: 83%;
+        }
+
+        #bodyshaming {
+            position: absolute;
+            left: 58%;
+            top: 83%;
         }
 
 
@@ -90,16 +195,38 @@
     </div>
 
 
-    <div id="strabrecht">
-        <img src="ums/STRABRECHT.png" usemap="#image-map">
+    <div class="continent" id="summa">
+        <span class="area" id="prestatiedruk">Pressure to perform</span>
+        <span class="area" id="geluk">Happiness</span>
+        <span class="area" id="depressie">Despression</span>
+        <span class="area" id="lifestyle">Lifestyle</span>
+        <img src="ums/summa.png">
+    </div>
+
+
+    <div class="continent" id="strabrecht">
+        <span class="area" id="trauma">Trauma</span>
+        <span class="area" id="verdriet">Grief</span>
+        <span class="area" id="woede">Anger</span>
+        <span class="area" id="angst">Fear</span>
+        <span class="area" id="sexualiteit">Sexuality</span>
+        <span class="area" id="rust">Rest</span>
+        <span class="area" id="zelfvertrouwen">Self-esteem</span>
+        <img src="ums/STRABRECHT.png">
     </div>
 
 
     <div class="continent" id="fomo">
+        <span class="area" id="fomo1">Fear of missing out</span>
         <img src="ums/FOMO.png">
     </div>
 
     <div class="continent" id="klimaat">
+        <span class="area" id="gender">Gender</span>
+        <span class="area" id="klimaatcrisis">Climate crisis</span>
+        <span class="area" id="wooncrisis">Housing crisis</span>
+        <span class="area" id="bodyshaming">Bodyshaming</span>
+
         <img src="ums/bodyshaming-climate-sexuality-housing.png">
     </div>
 
